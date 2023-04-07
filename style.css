@@ -1,0 +1,166 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+/*this is the heading of the page*/
+.heading{
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: repeat-x;
+  background-size: 1600px;
+  color: white;
+  text-align: center;
+  height: 50em;
+}
+
+/*this is the for the heading creative*/
+.heading h1{
+  font-size: 60px;
+}
+/*this is for the arrow down*/
+.heading img{
+  height: 300px;
+}
+/*this is only for the contact button*/
+button{
+  font-size: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 3em;
+}
+
+/*this is the header and it have a relation with the navigation bar*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: hwb(199 19% 4%);
+    height: 60px;
+}
+
+/*this have a big relation with the navigation bar*/
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav{
+  font-size: 40px;
+  margin-right: 10px
+}
+/*----------heading customize have end------------*/
+
+/*----------here we start with the items----------*/
+.item-1{
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: right;
+}
+
+.item-2{
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-size: 865px;
+  height: 600px;
+}
+
+.text{
+  padding-top: 8em;
+  max-width: 30em;
+  padding-left: 8em;
+}
+
+.item-2 .text{
+  padding-top: 10em;
+  max-width: 30em;
+  padding-left: 60em;
+}
+
+.text a{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline overline dotted purple;
+}
+
+.item-1 a{
+  color: black;
+}
+
+.item-2 a{
+  color: black;
+}
+
+/*-----------graphic design and photography ------------*/
+.graphic{
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  max-width: 720px;
+}
+
+.photograph{
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  height: 600px; 
+  max-width: 720px; 
+ }
+
+ /*here we go with the clients*/
+
+.object{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients{
+  display: flex;
+}
+
+.character img{
+  border-radius: 100%;
+  width: 120px;
+}
+
+.character{
+  display: flex;
+  flex-direction: column;
+  max-width: 30em;
+  margin-left: 30px;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.character p{
+  padding-top: 30px;
+}
+
+.character h3{
+  padding-top: 30px;
+}
+
+/*here we start with the pictures*/
+
+.pictures{
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 24.74em;
+}
+
+.pictures img{
+  width: 24.74em;
+}
+
+.footer{
+  background-color: rgba(144,212,197,255);
+  height: 15em;
+  align-items: center;
+  text-align: center;
+}
+
+.option{
+  margin-top: 5em;
+}
